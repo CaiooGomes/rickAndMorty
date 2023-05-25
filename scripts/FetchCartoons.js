@@ -15,8 +15,12 @@ fetch(urlCartoon)
                 <h2 class="itensCard">Episodios: ${item.episodes}</h2>
                 <h2 class="itensCard">Gênero ${item.genre}</h2>
             </div>
-            <img class="imageCard" src="${item.image}">
+            <img class="imageCard" src="${item.image}" onerror="handleError(this)">
         </div>
         `).join('');
         div.innerHTML = allCards;
     }
+
+function handleError(img){
+    img.src = ''
+}

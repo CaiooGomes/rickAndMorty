@@ -22,13 +22,15 @@
 }
 
 #navbar-image:hover{
-    
+    cursor: pointer;
 }
 
 .links-navbar{
     color: greenyellow;
     font-size: 1.8rem;
     text-decoration: none;
+    background: linear-gradient(to right, gray, black);
+    border-radius: 10px 10px 10px 10px;
 }
 
 #info-navbar{

@@ -1,0 +1,57 @@
+body{
+    background-color: gray;
+}
+
+#AnimationsList{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#AnimationsList div{
+    width: 300px;
+    height: fit-content;
+    margin-top: 60px;
+    border-radius: 40px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.imageCard{
+    height: 80%;
+    width: 340px;
+    border-radius: 40px 40px 40px 40px;
+    border: solid black 2px;
+    margin-bottom: 10px;
+}
+
+.itensCard{
+    background: rgba(0, 0, 0, 0.589);
+}
+
+
+.itensCard{
+    color: azure;
+    border-radius: 10px 10px 10px 10px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: fit-content;
+    position: absolute;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+.animationCard{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
