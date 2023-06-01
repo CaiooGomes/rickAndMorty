@@ -49,12 +49,4 @@
     margin-right: 4px;
 }
 
-@media (max-width: 600px){
-    #navbar{
-        flex-direction: row-reverse;
-    }
 
-    #navbar-image{
-        left: 50px;
-    }
-}
