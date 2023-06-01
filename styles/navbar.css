@@ -16,16 +16,37 @@
 }
 
 #navbar-image{
-    position: absolute;
     right: 50px;
     border-radius: 50%;
     width: 48px;
+}
+
+#navbar-image:hover{
+    cursor: pointer;
 }
 
 .links-navbar{
     color: greenyellow;
     font-size: 1.8rem;
     text-decoration: none;
+    background: linear-gradient(to right, gray, black);
+    border-radius: 10px 10px 10px 10px;
+}
+
+#info-navbar{
+    position: fixed;
+    right: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#nome-na-nav{
+    color: white;
+    font-size: 1.8rem;
+    margin-right: 4px;
 }
 
 @media (max-width: 600px){
