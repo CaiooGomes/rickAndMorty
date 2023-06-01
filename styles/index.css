@@ -1,3 +1,66 @@
 body{
     margin: 0;
+    background-color: gray;
 }
+.div1{
+    margin-top: 100px;
+}
+
+.TextIndex{
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+.TextIndex{
+
+    animation: trocacor 2s ease-in-out;
+}
+@keyframes trocacor{
+    0%{
+        background-color: black;
+    }
+    50%{
+        background-color: grey;
+    }
+    100%{
+        background-color: black;
+    }
+}
+.TextIndex2{
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    background: linear-gradient(to left, black, gray);
+    right: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.TextIndex3{
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    background: linear-gradient(to right, black, gray);
+    right: 20px;
+}
+
+.texts:hover{
+    opacity: 70%;
+}
+
+.linkhome{
+    color: white;
+    
+}
+
